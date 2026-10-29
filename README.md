@@ -64,5 +64,116 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Digital Realty is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.digitalrealty.com
+Digital Realty is a global provider of data center, colocation, and interconnection solutions. Operating over 300 data centers in 55+ metros worldwide, it serves enterprises and service providers with secure, scalable infrastructure for AI, cloud, and hybrid workloads. The company emphasizes sustainability, high availability, and extensive partner ecosystems, delivering 99.999% uptime and comprehensive compliance certifications.
+
+**Areas:** DataCenter · Colocation · Cloud · Infrastructure · Sustainability
+
+## Digital Realty on APIs.io
+
+Everything profiled for Digital Realty is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/digital-realty/](https://apis.io/providers/digital-realty/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Digital Realty Auth API](https://apis.io/apis/digital-realty/digital-realty-auth-api/) — The Auth API from Digital Realty — 1 operation(s) for auth.
+- [Digital Realty Facility Access API](https://apis.io/apis/digital-realty/digital-realty-facility-access-api/) — The Facility Access API from Digital Realty — 4 operation(s) for facility access.
+- [Digital Realty Remotehands Tickets API](https://apis.io/apis/digital-realty/digital-realty-remotehands-tickets-api/) — The Remotehands Tickets API from Digital Realty — 2 operation(s) for remotehands tickets.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1FacilityAccessAccessTicketsTicketidResponse](https://apis.io/schemas/digital-realty/digital-realty-get-v1-facility-access-access-tickets-ticketid-response/)
+- [GetV1FacilityAccessFacilityacceidResponse](https://apis.io/schemas/digital-realty/digital-realty-get-v1-facility-access-facilityacceid-response/)
+- [GetV1FacilityAccessPopPoesPoppoeidResponse](https://apis.io/schemas/digital-realty/digital-realty-get-v1-facility-access-pop-poes-poppoeid-response/)
+- [GetV1RemotehandsTicketsCategoriesResponse](https://apis.io/schemas/digital-realty/digital-realty-get-v1-remotehands-tickets-categories-response/)
+- [GetV1RemotehandsTicketsResponse](https://apis.io/schemas/digital-realty/digital-realty-get-v1-remotehands-tickets-response/)
+- [PostV2AuthTokenResponse](https://apis.io/schemas/digital-realty/digital-realty-post-v2-auth-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Digital Realty Context](https://apis.io/jsonld/digital-realty/digital-realty-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Digital Realty API Rules](https://apis.io/rules/digital-realty/digital-realty-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Digital Realty Authentication](https://apis.io/security/digital-realty/digital-realty-authentication/)
+- [Digital Realty Domain Security](https://apis.io/security/digital-realty/digital-realty-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.digitalrealty.com)
+- [Documentation](https://developer.digitalrealty.com/)
+- [Getting started](https://developer.digitalrealty.com/docs/getting-started)
+- [Sign up](https://www.digitalrealty.com/partners/register-a-lead)
+- [Blog](https://www.digitalrealty.com/resources/blog)
+- [Terms of service](https://www.digitalrealty.com/terms)
+- [Privacy policy](https://www.digitalrealty.com/privacy)
+- [Status](https://status.digitalrealty.com/)
+
+## API Evangelist rating
+
+**Kin Score 35.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 26.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/digital-realty/](https://apis.io/providers/digital-realty/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Digital Realty: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/digital-realty/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
